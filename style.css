@@ -436,14 +436,9 @@ img {
   padding: 50px 0;
   background-color: #ffffff;
 }
-@media (max-width: 1024px) {
-  .footer {
-    padding: 30px 0;
-  }
-}
 @media (max-width: 767px) {
   .footer {
-    padding-top: 45px;
+    padding: 45px;
   }
 }
 .footer__content {
@@ -516,6 +511,7 @@ img {
   .footer__logo-img {
     width: 102px;
     height: 24px;
+    margin-bottom: 10px;
   }
 }
 .footer__slogan {
@@ -585,11 +581,6 @@ img {
     line-height: 16px;
   }
 }
-@media (max-width: 767px) {
-  .footer__office {
-    margin-bottom: 4px;
-  }
-}
 .footer__phone {
   font-size: 20px;
   font-weight: 400;
@@ -608,9 +599,14 @@ img {
 .text-block {
   padding: 0 0 83px;
 }
+@media (max-width: 1024px) {
+  .text-block {
+    padding-bottom: 80px;
+  }
+}
 @media (max-width: 767px) {
   .text-block {
-    padding-bottom: 46px;
+    padding-bottom: 60px;
   }
 }
 .text-block * {
@@ -651,7 +647,7 @@ img {
 }
 @media (max-width: 1024px) {
   .text-block figure {
-    margin-bottom: 46px;
+    margin-bottom: 48px;
   }
 }
 @media (max-width: 767px) {
@@ -706,7 +702,12 @@ img {
   .text-block h1 {
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 44px;
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .text-block h1 {
+    margin-bottom: 40px;
   }
 }
 .text-block h2 {
@@ -725,7 +726,7 @@ img {
 }
 @media (max-width: 767px) {
   .text-block h2 {
-    margin-top: 40px;
+    margin: 40px 0 20px;
   }
 }
 .text-block p {
@@ -739,6 +740,9 @@ img {
     line-height: 20px;
     margin-bottom: 20px;
   }
+}
+.text-block p:last-child {
+  margin-bottom: 0;
 }
 .text-block blockquote {
   margin: 0 auto 48px;
