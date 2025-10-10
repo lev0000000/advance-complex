@@ -1,12 +1,12 @@
 .text-block {
-  padding: 0 0 83px;
+  padding: 0 0 100px;
 
   @include vp-1023{
     padding-bottom: 80px;
   }
 
   @include vp-767{
-    padding-bottom: 60px;
+    padding-bottom: 57px;
   }
 
   * {
@@ -36,7 +36,8 @@
     @include vp-767{
       width: 100%;
       height: 440px;
-      margin-bottom: 24px;
+      margin-bottom: 19px;
+      
     }
   }
 
@@ -49,12 +50,6 @@
 
     @include vp-767{
       margin-bottom: 40px;
-    }
-  }
-
-  figure:not(:last-child){
-    @include vp-767{
-      margin-bottom: 38px;
     }
   }
 
@@ -71,6 +66,7 @@
     @include vp-767{
       width: 100%;
       height: 170px;
+      margin-bottom: 10px;
     }
   }
 
@@ -106,6 +102,8 @@
     }
   }
 
+  
+
   h2 {
     margin: 48px auto 16px;
     font-size: 32px;
@@ -115,16 +113,18 @@
 
     @include vp-1023{
       font-size: 20px;
-      line-height: 24px;
-      margin-top: 50px;
-      
+      line-height: 24px;      
     }
 
+    
     @include vp-767{
       margin: 40px 0 20px;
+  
     }
+
   }
 
+  
   p {
     margin: 0 auto 16px;
     font-size: 16px;
@@ -155,7 +155,7 @@
     }
 
     @include vp-767{
-      margin-bottom: 38px;
+      margin-bottom: 40px;
       padding: 15px 20px;
       
     }
@@ -163,6 +163,7 @@
 
   blockquote p {
     margin: 0 auto;
+    
   }
 
   q {
@@ -190,6 +191,7 @@
     padding: 0 0 0 27px;
 
     @include vp-767{
+      
       padding: 0 0 0 22px;
     }
   }

@@ -394,8 +394,13 @@ img {
 }
 @media (max-width: 1024px) {
   .header {
-    padding: 15px 0;
+    padding: 15px 0 18px;
     margin: 0 0 20px 0;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 15px 0 18px;
   }
 }
 .header__content {
@@ -436,9 +441,9 @@ img {
   padding: 50px 0;
   background-color: #ffffff;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .footer {
-    padding: 45px;
+    padding: 50px 0;
   }
 }
 .footer__content {
@@ -581,6 +586,11 @@ img {
     line-height: 16px;
   }
 }
+@media (max-width: 767px) {
+  .footer__office {
+    margin-bottom: 4px;
+  }
+}
 .footer__phone {
   font-size: 20px;
   font-weight: 400;
@@ -597,7 +607,7 @@ img {
 }
 
 .text-block {
-  padding: 0 0 83px;
+  padding: 0 0 100px;
 }
 @media (max-width: 1024px) {
   .text-block {
@@ -606,7 +616,7 @@ img {
 }
 @media (max-width: 767px) {
   .text-block {
-    padding-bottom: 60px;
+    padding-bottom: 57px;
   }
 }
 .text-block * {
@@ -639,7 +649,7 @@ img {
   .text-block img {
     width: 100%;
     height: 440px;
-    margin-bottom: 24px;
+    margin-bottom: 19px;
   }
 }
 .text-block figure {
@@ -653,11 +663,6 @@ img {
 @media (max-width: 767px) {
   .text-block figure {
     margin-bottom: 40px;
-  }
-}
-@media (max-width: 767px) {
-  .text-block figure:not(:last-child) {
-    margin-bottom: 38px;
   }
 }
 .text-block figure img {
@@ -675,6 +680,7 @@ img {
   .text-block figure img {
     width: 100%;
     height: 170px;
+    margin-bottom: 10px;
   }
 }
 .text-block figcaption {
@@ -721,7 +727,6 @@ img {
   .text-block h2 {
     font-size: 20px;
     line-height: 24px;
-    margin-top: 50px;
   }
 }
 @media (max-width: 767px) {
@@ -758,7 +763,7 @@ img {
 }
 @media (max-width: 767px) {
   .text-block blockquote {
-    margin-bottom: 38px;
+    margin-bottom: 40px;
     padding: 15px 20px;
   }
 }
